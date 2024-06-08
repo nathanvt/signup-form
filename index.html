@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign-up Form ✍️</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="image-wrapper">
+            <div class="logo-wrapper">
+                <img src="images/odin-lined.png" alt="Odin Project Logo of Thors head">
+                <h1 class="logotype">ODIN</h1>
+            </div>
+            <div class="footer-wrapper">
+                <p>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="heading-wrapper">
+                <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.</h2>
+                <h2>You <em>know</em> you want to.</h2>
+            </div>
+            <div class="signup-wrapper">
+                <form>
+                    <div class="white-container">
+                            <h2>Let's do this!</h2>
+                            <div class="inputs-wrapper">
+                                <div class="input-item">
+                                    <label for="first_name">First Name</label>
+                                    <input type="text" name="first_name" id="first_name" minlength="1" required>
+                                </div>
+                                <div class="input-item">
+                                    <label for="last_name">Last Name</label>
+                                    <input type="text" name="last_name" id="last_name" minlength="1" required>
+                                </div>
+                                <div class="input-item">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" minlength="1" required>
+                                </div>
+                                <div class="input-item">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" name="phone" id="phone" minlength="1" required>
+                                </div>
+                                <div class="input-item">
+                                    <label for="password">Password</label>
+                                    <input type="password" minlength="6" name="password" id="password" required>
+                                    <span class="invalid">Must be at least 6 Characters</span>
+                                </div>
+                                <div class="input-item">
+                                    <label for="password_confirmed">Confirm Password</label>
+                                    <input type="password" minlength="6" name="password_confirmed" id="password_confirmed" required>
+                                    <span class="invalid">Must be at least 6 Characters</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <button type="submit">Create Account</button>
+                        <p>Already Have an account? <a href="#">Log in</a></p>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
